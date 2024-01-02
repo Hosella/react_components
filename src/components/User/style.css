@@ -1,0 +1,16 @@
+.User {
+  width: fit-content;
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.User__name {
+  margin-top: 8px;
+}
+
+.User__age {
+  font-weight: bold;
+  color: plum;
+}

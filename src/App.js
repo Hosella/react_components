@@ -1,5 +1,7 @@
 import { Multiplication } from "./components/Multiplication";
 import { Post } from "./components/Post";
+import { User } from "./components/User";
+import { kolya, olya, sonya } from "./utils/mockData";
 
 function App() {
   return (
@@ -12,6 +14,10 @@ function App() {
         a={3}
         b={6}
       />
+
+      <User user={sonya}/>
+      <User user={olya}/>
+      <User user={kolya}/>
     </div>
   );
 }
